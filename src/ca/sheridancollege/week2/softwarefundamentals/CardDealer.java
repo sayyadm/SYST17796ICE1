@@ -1,7 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ Mohamad Sayyad
+991656975
  */
 package ca.sheridancollege.week2.softwarefundamentals;
 
@@ -15,5 +14,16 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        Card ice = new Card("ice",5);
+        ice.setSuit("Spades");
+        System.out.println(""+ice.getSuit());
+        System.out.println(""+ice.getValue());
+        
+        
+
+ Card one = new Card("Hearts",4);
+        one.setSuit("Hearts");
+        System.out.println(""+one.getSuit());
+        System.out.println(""+one.getValue());
     }
 }
