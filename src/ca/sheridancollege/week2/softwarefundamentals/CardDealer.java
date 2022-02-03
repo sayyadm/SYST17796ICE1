@@ -18,12 +18,5 @@ public class CardDealer
         ice.setSuit("Spades");
         System.out.println(""+ice.getSuit());
         System.out.println(""+ice.getValue());
-        
-        
-
- Card one = new Card("Hearts",4);
-        one.setSuit("Hearts");
-        System.out.println(""+one.getSuit());
-        System.out.println(""+one.getValue());
     }
 }
